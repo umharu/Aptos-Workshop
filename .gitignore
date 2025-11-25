@@ -1,2 +1,45 @@
-.aptos/
+# -------------------------
+# Aptos / Move build files
+# -------------------------
 build/
+aptos.dev/
+.move/
+
+# Ignore Move compiler cache (if any)
+.cache/
+
+# -------------------------
+# Rust build artifacts
+# (used by aptos CLI or devnet tools)
+# -------------------------
+target/
+
+# -------------------------
+# Python virtual environment
+# (sometimes used for scripts or tooling)
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+
+# -------------------------
+# Node / JS tools (optional but common)
+# -------------------------
+node_modules/
+
+# -------------------------
+# Editor / IDE files
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS junk files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
